@@ -1,7 +1,72 @@
----
-created: 2024-12-19T07:19:22-08:00
-modified: 2024-12-19T07:19:31-08:00
----
+eternafx/
+├── core/                         # Core utilities and shared modules
+│   ├── golden_ratio.py           # Golden Ratio utilities
+│   ├── decision_engine.py        # Decision-making engine
+│   ├── harmony_controller.py     # Harmony vs. Chaos metrics
+│   ├── save_load.py              # Save/load functionality
+│   └── __init__.py
+├── ai/                           # AI-driven modules
+│   ├── scenario_generator.py     # Scenario generation (Ada Lovelace AI)
+│   ├── ethics_engine.py          # Ethical decision-making (Marie Curie AI)
+│   ├── optimization.py           # Optimization algorithms (Alan Turing AI)
+│   ├── quantum_engine.py         # Quantum mechanics (Stephen Hawking AI)
+│   └── __init__.py
+├── visualization/                # Visualization and UI modules
+│   ├── prime_gap_visualizer.py   # Prime gap visualization
+│   ├── zeta_function_3d.py       # Zeta Function Dynamics visualization
+│   ├── immersive_simulation.py   # Immersive visual simulations
+│   └── __init__.py
+├── deployment/                   # Deployment tools and configurations
+│   ├── docker/
+│   │   ├── Dockerfile
+│   │   ├── docker-compose.yml
+│   ├── kubernetes/
+│   │   ├── deployment.yaml
+│   │   ├── service.yaml
+│   ├── ci_cd/
+│   │   ├── github_actions.yml
+│   │   ├── circleci_config.yml
+│   └── __init__.py
+├── docs/                         # Documentation for the entire framework
+│   ├── index.md
+│   ├── installation.md
+│   ├── modules/
+│   │   ├── core.md
+│   │   ├── ai.md
+│   │   ├── visualization.md
+│   └── mkdocs.yml
+├── data/                         # Datasets and pre-trained models
+│   ├── datasets/
+│   │   ├── prime_gaps.csv
+│   │   ├── zeta_values.json
+│   ├── models/
+│   │   ├── gpt_model.pth
+│   │   ├── ethics_engine.pkl
+│   └── README.md
+├── tests/                        # Testing scripts for all modules
+│   ├── test_core/
+│   │   ├── test_golden_ratio.py
+│   │   ├── test_decision_engine.py
+│   ├── test_ai/
+│   │   ├── test_scenario_generator.py
+│   │   ├── test_ethics_engine.py
+│   ├── test_visualization/
+│   │   ├── test_prime_gap_visualizer.py
+│   │   ├── test_zeta_function_3d.py
+│   └── performance_tests/
+│       ├── performance_benchmark.py
+├── feedback/                     # User feedback and analysis tools
+│   ├── feedback_collector.py
+│   ├── feedback_analysis.py
+│   └── __init__.py
+├── experiments/                  # Sandbox for experimental features
+│   ├── new_visualization.py
+│   ├── advanced_scenario_engine.py
+│   └── README.md
+├── requirements.txt              # Python dependencies
+├── README.md                     # Main documentation for the monorepo
+├── LICENSE                       # License for the framework
+└── .gitignore                    # Git ignore rules
 
 https://github.com/aiKC91/EternaFX/blob/main/MOK14
 
